@@ -13,6 +13,6 @@
         android:id="@+id/fragment_container_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.talco.brandnewapp.MainScreen_fragment" />
+        android:name="com.talco.constacts_app.MainScreen_fragment" />
 
 </LinearLayout>

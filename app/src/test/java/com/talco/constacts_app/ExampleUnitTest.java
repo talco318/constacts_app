@@ -1,4 +1,4 @@
-package com.talco.brandnewapp;
+package com.talco.constacts_app;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.talco.brandnewapp.data.model;
+package com.talco.constacts_app.data.model;
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository

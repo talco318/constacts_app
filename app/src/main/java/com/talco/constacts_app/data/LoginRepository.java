@@ -1,6 +1,6 @@
-package com.talco.brandnewapp.data;
+package com.talco.constacts_app.data;
 
-import com.talco.brandnewapp.data.model.LoggedInUser;
+import com.talco.constacts_app.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and

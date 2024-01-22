@@ -1,4 +1,4 @@
-package com.talco.brandnewapp;
+package com.talco.constacts_app;
 
 import android.content.Context;
 import android.media.AudioManager;
@@ -17,8 +17,6 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 public class MainActivity extends AppCompatActivity {
     private FirebaseAuth mAuth;
@@ -70,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                             //added:
                             //setContentView(R.layout.activity_sec);
 
-                            Navigation.findNavController(view).navigate(R.id.action_login_to_contactFragment);
+                            Navigation.findNavController(view).navigate(R.id.action_loginFragment_to_conctactsFragment);
 
 
                             Log.d("result", "login done!");
@@ -132,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                             // Sign in success, update UI with the signed-in user's information
                             Toast.makeText(MainActivity.this, "Register successful!", Toast.LENGTH_LONG).show();
                             //setContentView(R.layout.activity_sec);
-                            Navigation.findNavController(view).navigate(R.id.action_register_to_contactFragment);
+                            Navigation.findNavController(view).navigate(R.id.action_regFragment_to_conctactsFragment);
 
                         } else {
                             // If sign in fails, display a message to the user.

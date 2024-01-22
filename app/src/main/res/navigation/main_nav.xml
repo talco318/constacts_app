@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/welcomeFragment"
-        android:name="com.talco.brandnewapp.welcomeFragment"
+        android:name="com.talco.constacts_app.welcomeFragment"
         android:label="fragment_first"
         tools:layout="@layout/fragment_welcome" >
         <action
@@ -23,25 +23,25 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.talco.brandnewapp.loginFragments"
+        android:name="com.talco.constacts_app.loginFragments"
         android:label="fragment_login"
         tools:layout="@layout/fragment_login" >
         <action
-            android:id="@+id/action_login_to_contactFragment"
-            app:destination="@id/contactFragment" />
+            android:id="@+id/action_loginFragment_to_conctactsFragment"
+            app:destination="@id/conctactsFragment" />
     </fragment>
     <fragment
         android:id="@+id/regFragment"
-        android:name="com.talco.brandnewapp.registerFragment"
+        android:name="com.talco.constacts_app.registerFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
-            android:id="@+id/action_register_to_contactFragment"
-            app:destination="@id/contactFragment" />
+            android:id="@+id/action_regFragment_to_conctactsFragment"
+            app:destination="@id/conctactsFragment" />
     </fragment>
     <fragment
-        android:id="@+id/contactFragment"
-        android:name="com.talco.brandnewapp.ContactFragment"
-        android:label="fragment_contact"
-        tools:layout="@layout/fragment_contact" />
+        android:id="@+id/conctactsFragment"
+        android:name="com.talco.brandnewapp.ConctactsFragment"
+        android:label="fragment_conctacts"
+        tools:layout="@layout/fragment_conctacts" />
 </navigation>

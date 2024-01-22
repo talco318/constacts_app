@@ -1,4 +1,4 @@
-package com.talco.brandnewapp;
+package com.talco.constacts_app;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
